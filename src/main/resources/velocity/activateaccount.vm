@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<body>
+		<div>
+			<p>
+				Hello ${first}&nbsp;${last},<br/>
+				<br/>
+				Click on the link below to activate your account:<br/>
+				<a href="http://${url}/signUp/activate/${user}/${activationKey}">${url}/signUp/activate/${user}/${activationKey}</a><br/>
+				<br/>
+				<br/>			
+				Username:&nbsp;<span style="color: #0066FF;">${user}</span><br/>
+				<br>
+				<br>
+				Please change your password after you have logged in.<br>
+				<br>
+				<span>For support please call ${phoneNo} </span><br>
+				<br>
+				<span>or email mail@mail.com </span><br>
+				<br>
+				Best Regards,<br>
+				<span>nalaz Administrator</span>
+			</p>
+		</div>
+	</body>
+</html>

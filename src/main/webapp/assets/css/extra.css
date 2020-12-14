@@ -1,0 +1,88 @@
+.front-header a > i {
+ display:none;
+}
+#pre-header .links a.active {
+    font-weight: 800;
+}
+.deco-banner {
+    height: 185px;
+    margin-bottom: 80px;
+}
+.breadcrumbs ul {
+    top:0;
+}
+.search-bar {
+    background-color: #AFEEEE;
+    padding: 1%;
+    width: 98%;
+    margin-bottom: 15px;
+}
+.search-bar .input-append {
+    margin-bottom: 0;
+}
+.search-bar .input-append input {
+    background-color: white;
+}
+.search-bar .btn.green {
+    margin-top: 8px;
+}
+.tenant-table thead {
+    background-color: #F5F5F5;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.front-header {
+    border-top: solid 1px #eee;
+}
+
+.nav-tabs > li > a {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.relative {
+	position: relative;
+}
+#buildNo {
+	position: absolute;
+	font-size: 9px;
+	text-align: right;
+	right: 5px;
+	top: 100%;
+}
+.signup-form input {	
+	width: 230px;
+}
+.blue-text {
+	color: #0D638F;
+}
+.welcome-product div.span10 {
+	margin-left: 0px;
+}
+.welcome .lead {
+	font-size: 15px;
+	line-height: 25px;
+}
+.jumbotron .welcome h2 {	
+	font-size: 22px;	
+}
+.jumbotron .welcome h1 {	
+	margin-bottom: 10px;
+}
+.welcome-sidebar-box h2 {
+	text-align: left;
+	line-height: 24px;
+}
+.welcome-sidebar-box ul {
+	list-style-type: none;
+	margin-left: 0px;
+}
+.welcome-sidebar-box ul li {
+	color: #0D638F;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.welcome-analysis {
+	margin-top: 40px;
+}

@@ -1,0 +1,213 @@
+.subHeading {
+    background-color: #d3e0ea;
+    height: auto;
+    width: 100%;
+    padding: 3px 3px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.subHeading2 {
+    background-color: #e8f3ff;
+    height: auto;
+    padding: 3px 3px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.meter {
+    width: 150px;
+    height: 18px;
+    border: 1px solid #ddd;
+}
+
+.red {
+    height: 100%;
+    background-color: #FF0000;
+    /*background-color: #5dd187;*/
+    text-align: right;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.yellow {
+    height: 100%;
+    /*background-color: orange;*/
+    background-color: #FFFF00;
+    text-align: right;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.orange {
+    height: 100%;
+    background-color: #FF9933;
+    /*background-color: #ffd178;*/
+    text-align: right;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.green {
+    height: 100%;
+    background-color: #00CC00;
+    /*background-color: #ff6555;*/
+    text-align: right;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.importanceLevel {
+    height: 100%;
+    background-color: #62b4d1;
+    text-align: right;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+.indicatorText {
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.indicatorValue {
+    font-weight: bold;
+    color: #000000;
+    padding-top: 5px;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-right: 16px solid blue;
+    border-bottom: 8px solid transparent;
+    box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.5);
+}
+
+.intent {
+    margin-left: 10px;
+}
+
+.helptable {
+    margin: 10px 0px;
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+
+.helptable td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+.noPrint {
+    display: none
+}
+
+.right-logo {
+    position: relative;
+    margin: 0;
+    padding: 10px 10px 0 0;
+    float: right;
+}
+
+.industry-item {
+    color: #0f155f;
+    margin-top: 20px;
+    /* padding-left: 5px;*/
+}
+
+h5, h6, h4 {
+    /* padding-left: 5px;*/
+}
+
+.main-headings {
+    color: #3e97cf;
+    font-size: 16px;
+}
+
+.gridFormRisk .controls {
+    margin-left: 0;
+}
+
+.gridFormRisk td {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px solid #dddddd;
+    /*border: 1px solid #dddddd;*/
+}
+
+.gridFormRisk select.input-medium {
+    min-width: 164px;
+}
+
+.gridFormRisk .input-prepend input.input-medium {
+    max-width: 124px;
+}
+
+.gridFormRisk label.control-label {
+    width: 0;
+}
+
+.lr-indicator-table {
+    width: 100%;
+}
+
+.lr-indicator-td {
+    text-align: center;
+    vertical-align: middle;
+    /*border: 1px solid #000000;*/
+}
+
+.mathSymbol {
+    font-size: 54px;
+    font-weight: bold;
+    color: #666;
+    text-align: center;
+    /*height: auto;*/
+    /*line-height: 45px;*/
+    padding-top: 28px;
+
+}
+
+.credit-indicator {
+    font-size: 16px;
+    width: 157px;
+    /*font-weight: bold;*/
+    text-align: left;
+    padding-top: 20px;
+    /*padding-left: 20px;*/
+}
+
+.hintBox {
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin: 0 20px 20px 20px;
+}
+.main-head {
+    color: #3e97cf;
+    font-size: 16px;
+    margin-top:20px;
+    font-weight: 600;
+}
+.sub-head {
+    color: #3e97cf;
+    font-size: 16px;
+    /*font-weight: 500;*/
+}

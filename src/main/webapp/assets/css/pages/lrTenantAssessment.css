@@ -1,0 +1,1090 @@
+.subHeading {
+    background-color: #d3e0ea;
+    height: auto;
+    width: 100%;
+    padding: 3px 3px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.subHeading2 {
+    background-color: #e8f3ff;
+    height: auto;
+    padding: 3px 3px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.meter {
+    width: 100%;
+    height: 18px;
+    /*border: 1px solid #ddd;*/
+}
+.lease-meter {
+    width: 100%;
+    height: 18px;
+    /*border: 1px solid #ddd;*/
+}
+.grey {
+	background-color: #E1E2E4;
+    text-align: center;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+	height: 100%;
+	margin-right: 2px;
+	line-height: 20px;
+}
+.score-wrapper {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.red {
+    background-color: #E51937;
+}
+.yellow {
+    background-color: #F89829;
+}
+.orange {
+    background-color: #F1592A;
+}
+.lightGreen{
+	background-color: #5BAB29;
+}
+.green {
+    background-color: #6EB43F;
+}
+.chart-circle-red {
+    background-color: #E51937;
+}
+.chart-circle-yellow {
+    background-color: #F89829;
+}
+.chart-circle-lime {
+    background-color: #A0C54E;
+}
+.chart-circle-orange {
+    background-color: #F1592A;
+}
+.chart-circle-green {
+    background-color: #6EB43F;
+}
+
+.importanceLevel {
+    height: 100%;
+    background-color: #62b4d1;
+    text-align: right;
+    color: #000000;
+    font-family: 'Open Sans';
+    font-size: 10px;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+.indicatorText {
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.indicatorValue {
+    font-weight: bold;
+    color: #000000;
+    padding-top: 5px;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-right: 16px solid blue;
+    border-bottom: 8px solid transparent;
+    box-shadow: 0 16px 10px -17px rgba(0, 0, 0, 0.5);
+}
+
+.intent {
+    /*margin-left: 10px;*/
+    cursor: pointer;
+}
+
+.helptable {
+    margin: 10px 0px;
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+
+.helptable td {
+    border: 1px solid #dddddd;
+    padding: 5px;
+}
+
+.noPrint {
+    display: none
+}
+
+.right-logo {
+    position: relative;
+    margin: 0;
+    padding: 10px 10px 0 0;
+    float: right;
+}
+
+.industry-item {
+    color: #0f155f;
+    margin-top: 20px;
+    /* padding-left: 5px;*/
+}
+
+h5, h6, h4 {
+    /* padding-left: 5px;*/
+}
+
+.main-headings {
+    color: #3e97cf;
+    font-size: 16px;
+}
+
+.gridFormRisk .controls {
+    margin-left: 0;
+}
+
+.gridFormRisk td {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px solid #dddddd;
+    /*border: 1px solid #dddddd;*/
+}
+
+.gridFormRisk select.input-medium {
+    min-width: 164px;
+}
+
+.gridFormRisk .input-prepend input.input-medium {
+    max-width: 124px;
+}
+
+.gridFormRisk label.control-label {
+    width: 0;
+}
+
+.lr-indicator-table {
+    width: 100%;
+}
+
+.lr-indicator-td {
+    text-align: center;
+    vertical-align: middle;
+    /*border: 1px solid #000000;*/
+}
+
+.mathSymbol {
+    font-size: 54px;
+    font-weight: bold;
+    color: #666;
+    text-align: center;
+    /*height: auto;*/
+    /*line-height: 45px;*/
+    padding-top: 28px;
+
+}
+
+.credit-indicator {
+    font-size: 16px;
+    width: 157px;
+    /*font-weight: bold;*/
+    text-align: left;
+    padding-top: 20px;
+    /*padding-left: 20px;*/
+}
+
+.hintBox {
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin: 0;
+}
+.main-head {
+    color: #3e97cf;
+    font-size: 16px;
+    margin-top:20px;
+    font-weight: 600;
+}
+.sub-head {
+    color: #3e97cf;
+    font-size: 16px;
+    /*font-weight: 600;*/
+}
+.modal.modal-large {
+    margin-left: -40%;
+    width: 80%;
+}
+.modal.modal-large .modal-body {
+    max-height: 510px;
+}
+.modal#industryModal {
+	top: 2px;
+}
+.border-top {
+	border-top: 1px solid #dddddd;
+}
+.border-bottom-none {
+	border-bottom: none;
+}
+.border-bottom {
+	border-bottom: 1px solid #dddddd;
+}
+.border-right {
+	border-bottom: 1px solid #dddddd;
+}
+.border-top-double {
+	border-top: double #dddddd;
+}
+.border-bottom-double {
+	border-bottom: double #dddddd;
+}
+#viewAssessment {
+	font-family: 'Open Sans';
+	font-size: 14px;
+}
+#viewAssessment thead tr, .bold-blue {
+	font-weight: bold !important;
+	color: #154B6C !important;
+}
+#viewAssessment thead tr .popover, .bold-blue .popover {
+	font-weight: initial;
+	color: initial;
+}
+#viewAssessment tbody td b {
+	color: #545757;
+}
+.main-dial-main-wrapper {
+	margin-left: 90px;	
+}
+.dial-wrapper {
+	position: relative;
+	float: left;
+	padding: 40px;
+    width: 290px;
+    height: 290px;
+	/*width: 275px;
+	height: 275px;
+	margin-top: 20px;
+	margin-left: 15px;*/
+}
+.dial-wrapper-small {
+	position: relative;
+	padding: 20px;
+	width: 125px;
+	height: 125px;
+}
+.dial-wrapper-small .chart-score {
+	font-size: 60px;
+	top: 43%;
+	height: 57%;	
+}
+.dial-wrapper-small-lease {
+	position: relative;
+	padding: 20px;
+	width: 125px;
+	height: 125px;
+}
+.dial-wrapper-small-lease .chart-score {
+	font-size: 60px;
+	top: 43%;
+	height: 57%;	
+}
+.dial-label {
+	width: 355px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 42px;
+	font-weight: bold;
+	color: #0d72b5;
+}
+#dial-label-tm {
+	font-size: 25px;
+	vertical-align: super;
+}
+.colored-circle {
+	border-radius: 50% !important;
+	width: 100%;
+	height: 100%;
+}
+.chart-colored-circle {
+	border-radius: 50% !important;
+    width: 236px;
+    height: 236px;
+    margin: 33px auto;	
+}
+.colored-circle-red {
+	background: #E51937;
+}
+.colored-circle-orange {
+	background: #F1592A;
+}
+.colored-circle-yellow {
+	background: #F89829;
+}
+.colored-circle-green {
+	background: #6EB43F;
+}
+.colored-circle-red-color {
+	background: #E51937;
+	border-radius: 50% !important;
+	width: 100%;
+	height: 100%;
+}
+.colored-circle-orange-color {
+	background: #F1592A;
+	border-radius: 50% !important;
+	width: 100%;
+	height: 100%;
+}
+.colored-circle-yellow-color {
+	background: #F89829;
+	border-radius: 50% !important;
+	width: 100%;
+	height: 100%;
+}
+.colored-circle-green-color {
+	background: #6EB43F;
+	border-radius: 50% !important;
+	width: 100%;
+	height: 100%;
+}
+.chart-circle, .chart-score {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.chart-score {
+	text-align: center;
+	font-size: 125px;
+	font-weight: bold;
+	top: 47%;
+	height: 53%;
+}
+.circle-arrow {
+	position: absolute;
+    width: 239px;
+    left: 65px;
+	top: 190px;
+	/*width: 280px;
+	left: 37px;
+	top: 50%;*/
+	height: 1px;
+	transform:rotate(-240deg);
+	-webkit-transform:rotate(-240deg);
+	-moz-transform:rotate(-240deg);
+	-o-transform:rotate(-240deg);
+	transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	-webkit-transition: 2s ease-out;
+	-moz-transition: 2s ease-out;
+	-o-transition: 2s ease-out;
+	transition: 2s ease-out;
+}
+.circle-arrow:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #FFFFFF;
+	/*border-width: 17px 0 17px 39px;*/
+	border-width: 17px 0 17px 22px;
+	margin-top: -17px;
+}
+/*.circle-arrow:after {
+	left: 113%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 2px;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-left-color: #E51937;
+	border-width: 17px 0 17px 39px;
+	margin-top: -19px;
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+}
+.circle-arrow-red.circle-arrow:after {
+	border-left-color: #E51937;
+}
+.circle-arrow-orange.circle-arrow:after {
+	border-left-color: #F1592A;
+}
+.circle-arrow-yellow.circle-arrow:after {
+	border-left-color: #F89829;
+}
+.circle-arrow-green.circle-arrow:after {
+	border-left-color: #6EB43F;
+}*/
+.main-charts {	
+	position: relative;
+	float: right;
+	padding-left: 50px;
+	margin-top: 25px;
+	width: 95%;
+}
+.charts-wrapper {
+	position: relative;
+	margin-left: 0 !important;
+}
+.chart-vertical {
+	height: 300px;
+	position: relative;
+}
+.chart-vertical > div {
+	width: 50px;
+	height: 20%;
+	display: table;
+    margin: 0 auto;
+}
+.chart-separators {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+.chart-separator-lines {
+	height: 20%;
+	position: relative;
+}
+.chart-separator-lines > div {
+	height: 100%;
+	border-bottom: 1px dashed #BBBBBB;
+}
+.chart-separator-lines > span {
+	color: #545757;
+	font-weight: bold;
+	position: absolute;
+	top: -9px;
+	right: 101%;
+}
+.chart-separator-lines:first-child > span {
+	top: 0;
+}
+.chart-separators .chart-separator-lines:last-child > div {
+	border-bottom: none;
+}
+.chart-elevate-wrapper {	
+	position: relative;
+	height: 0 !important;
+}
+.chart-vertical .chart-elevate, .chart-vertical .chart-fixed {
+	position: absolute;
+	z-index: 1;
+	width: 110px;
+	left: -30px;
+	height: 30px;
+	bottom: -15px;
+	-webkit-transition: 2s ease-out;
+	-moz-transition: 2s ease-out;
+	-o-transition: 2s ease-out;
+	transition: 2s ease-out;
+}
+.chart-elevate span, .chart-fixed span {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	font-weight: bold;
+	text-align: center;
+	color: #545757;
+}
+span.chart-vertical-arrow {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	border: solid transparent;
+	border-radius: 50% !important;
+	background-color: #545757;
+}
+span.chart-vertical-arrow:after {
+	content: '';
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: -5px;
+	width: 15px;
+	height: 15px;
+	border-top: 1.5px solid #FFFFFF;
+	border-right: 1.5px solid #FFFFFF;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.chart-low-risk, .chart-high-risk {	
+	color: #545757;
+	font-weight: bold;
+	margin-left: -30px;
+	float: left;
+}
+.chart-labels {
+	float: left;
+	width: 100%;
+}
+.chart-labels .chart-label-wrapper > span {
+	color: #545757;
+	font-weight: bold;
+	/*margin: 0 6.3%;*/
+	line-height: 50px;
+}
+.chart-label-wrapper {
+	width: 33.33333%;
+	text-align: center;
+	float: left;
+}
+.til-score-logo {
+	width: 175px;
+}
+.tab-title {
+	color: #15589F;
+	font-size: 42px;
+	font-weight: bold;
+	margin-left: 10px;
+	line-height: 60px;
+}
+.tab-subtitle, .tab-rsf {
+	color: #545757;
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.tab-rsf {
+	font-size: 18px;
+	float: left;
+	margin-top: 5px;
+}
+.tab-text {
+	font-size: 18px;
+	float: left;
+	font-weight: normal;
+	margin-top: 5px;
+	line-height: 10px;
+}
+.text-middle {
+	vertical-align: middle !important;
+}
+.text-center {
+	text-align: center !important;
+}
+.border-top-none {
+	border-top: none !important;
+}
+.border-bottom-none {
+	border-bottom: none !important;
+}
+.border-right {
+	border-right: 1px solid #dddddd;
+}
+.table-title {
+	font-size: 16px;
+}
+.understanding-til-score {
+	float: left;
+	width: 355px;
+	margin-left: 15px;
+	margin-top: 15px;
+	text-align: center;
+}
+.top-15px {
+	margin-top: 15px;
+}
+.red-note {
+	color: #b94a48;
+}
+div.alert-important {	
+	color: #AB3822;
+	background-color: #F7ADAD;
+	border-color: #F28F9E;
+}
+#security-slider, #tenant-allowance-slider, #free-rent-slider {	
+	min-height: 18px;
+	background: #0d72b5;
+	cursor: pointer;
+}
+.noUi-handle {	
+	cursor: pointer;
+}
+.input-medium-custom, #securityDeposit {
+	width: 123px !important;
+}
+#securityDeposit {
+	text-align: right;
+}
+.risk-adjustment-info {	
+	margin-top: 50px;
+}
+#security-percentage {
+	border: 1px solid #D9D9D9;
+	box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+	position: absolute;
+	bottom: 120%;
+	text-align: center;
+	width: 52px;
+	left: -10px;
+}
+.top-35px {	
+	margin-top: 35px;
+}
+#riskAdjustment .dial-label {	
+    margin-top: -4px;
+    margin-bottom: 0px;
+}
+#tenant-allowance-slider-range {
+	position: absolute;
+	width: 190px;
+	left: 100%;
+	top: 65px;
+	margin-left: -91px;
+	display: none;
+}
+#tenant-allowance-slider-range:hover {
+	box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 6px 6px -3px #BBB;
+}
+form#adjustRisk {	
+	margin-bottom: 0px;
+}
+.relative {
+	position: relative;
+}
+#buildNo {
+	position: absolute;
+	font-size: 9px;
+	text-align: right;
+	right: 5px;
+}
+.financialsCheckbox {	
+	display: inline-block;
+	margin-left: 30px;
+}
+#security-total-capital-label {	
+	position: absolute;
+	left: 0px;
+	top: 35px;
+}
+.tenant-history-title {
+	color: red;
+}
+.input-medium.numberOfMonthsGrossRent {	
+	text-align: right;
+	width: 161px;
+	margin-top: 12px;
+}
+.noUi-value-horizontal-low {
+	padding-top: 35px !important;
+}
+.noUi-value-horizontal-lower {
+	padding-top: 50px !important;
+}
+.noUi-value-horizontal {
+    font-weight: bold;
+}
+#uploadPdfModal {	
+	width: 625px;
+}
+.downloadPdfLink a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.downloadPdfLink a:hover {
+	color: #000000;
+}
+.downloadPdfAndManuallyEdit {
+	float: left;
+	margin-left: 10px;
+	height: 34px;
+}
+.downloadPdfLink, .financialsCheckbox {
+	width: 100%;
+	float: left;
+}
+.financialsCheckbox {
+	margin-left: 0px;
+}
+.financialsCheckbox .checkbox {	
+	margin-left: 30px;
+	float: left;
+}
+.downloadPdfLink {	
+	margin-top: 6px;
+}
+.cap-rate-chart {
+	margin-left: 0px !important;
+	margin-top: 0px;
+	padding-left: 0;
+font-family: 'Open Sans';
+	font-size: 14px;
+}
+.cap-rate-chart .chart-vertical > div {	
+	/*width: 100px;*/
+}
+.cap-rate-chart .chart-separator-lines > span {
+	right: inherit;
+	left: 5px;
+}
+.cap-rate-chart .chart-separator-lines:last-child > span {
+	top: -18px;
+}
+.cap-rate-chart .chart-separator-lines > span {
+	top: 0px;
+	width: 50%;
+	left: -42px;
+	text-align: right;
+}
+.cap-rate-chart .chart-vertical .chart-fixed-elevate, .cap-rate-chart .chart-vertical .chart-fixed {
+	width: 50%;
+	left: 0px;
+}
+.cap-rate-middle-value, .chart-separator-middle {
+	border: 1px solid #CCCCCC;
+	width: 80px;
+	padding: 5px;
+	text-align: right;	
+	color: #545757;
+	font-weight: bold;
+	line-height: 15px;
+	position: absolute;
+	right: 37px;
+	top: -15px;
+	background: #FFFFFF;
+}
+.cap-rate-middle-value {
+	-webkit-border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	border-radius: 3px !important;
+}
+.cap-rate-middle-value.cap-rate-middle-value-cap {	
+	width: 73px;
+}
+.cap-rate-middle-value.cap-rate-middle-value-building {	
+	width: auto;
+}
+.chart-fixed-elevate .cap-rate-middle-value {
+	text-align: left;
+}
+.cap-rate-chart .chart-vertical .chart-fixed-elevate {
+	bottom: 155px;
+}
+.cap-rate-chart .chart-separator-lines:last-child {
+	height: 0px;
+}
+.cap-rate-chart .chart-separator-lines:nth-last-child(2) > div {
+	border-bottom: none;
+}
+.chart-vertical .chart-fixed {	
+	bottom: 155px;
+}
+#viewAssessment .chart-vertical .chart-fixed {	
+	bottom: 135px;
+}
+.chart-fixed span.pull-right, .cap-rate-chart .chart-fixed-elevate span.pull-right {
+	float: left;
+	line-height: 12px;
+	width: 140px;
+	margin-top: 8px;
+	text-align: left;
+}
+.cap-rate-chart .chart-vertical .chart-elevate-wrapper {
+	width: 100%;
+}
+.chart-separator-middle, .chart-vertical-black-bar {	
+	width: 104px;
+	height: 5px;
+	background: #545757;
+	margin-top: 3px;
+}
+.chart-vertical-black-bar {
+	background: #000000;
+}
+.cap-rate-chart .chart-fixed-elevate span.pull-right {
+	margin-top: 0px;
+}
+.cap-rate-chart .chart-vertical {
+	height: 360px;
+}
+#viewAssessment .cap-rate-chart .chart-vertical {
+	height: 320px;
+}
+.cap-rate-middle-value:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(204, 204, 204, 0);
+	border-left-color: #545757;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.cap-rate-middle-bar {	
+	float: right;
+	width: 55px;
+	height: 1px;
+	background: #545757;
+	margin-right: -25px;
+	margin-top: 5px;
+}
+.cap-rate-chart .chart-vertical .chart-fixed.chart-fixed-elevate {	
+	right: 0;
+	left: inherit;
+}
+.chart-fixed.chart-fixed-elevate .cap-rate-middle-bar {	
+	float: left;
+	margin-left: -25px;
+}
+.chart-fixed.chart-fixed-elevate .cap-rate-middle-value {
+	left: 37px;
+}
+.chart-fixed.chart-fixed-elevate .cap-rate-middle-value:after {
+	right: 100%;
+	border-right-color: #545757;
+	left: -20px;
+	border-left-color: transparent;
+}
+ul.score-keys {	
+	margin: 0;
+}
+ul.score-keys li.red,
+ul.score-keys li.orange,
+ul.score-keys li.yellow,
+ul.score-keys li.green {
+	width: 15%;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	margin-left: 1%;
+}
+ul.score-keys li:first-child,
+ul.score-keys li:last-child {
+	width: 17%;
+	color: #545757;
+	font-weight: bold;
+	float: left;
+	list-style-type: none;
+	text-align: right;
+	margin-left: 1%;
+}
+ul.score-keys li:last-child {
+	text-align: left;
+}
+.tab-date {
+	float: left;
+	padding-top: 5px;
+	width: 100%;
+	margin-left: 10px;
+}
+.risk-summary-charts {	
+	position: relative;
+	width: 100%;
+	float: left;
+}
+.risk-summary-charts .main-charts:first-child .chart-separators {
+	border-left: none;
+}
+.help-input {	
+	margin-left: 180px;
+	padding-left: 5px;
+	font-size: 12px;
+	color: #555555;
+	float: left;
+	margin-top: -10px;
+}
+.understanding-til-score-wrapper .dial-label,
+.understanding-til-score-wrapper .understanding-til-score {	
+	width: 100%;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+.form-horizontal .leaseDeal .control-label {
+	width: 180px;	
+}
+.form-horizontal .leaseDeal .controls {
+	margin-left: 190px;
+}
+.help-select {
+	font-size: 12px;
+	color: #555555;
+	float: left;
+}
+.financials-buttons-wrapper {
+	position: relative;
+}
+.financials-buttons {
+	position: absolute;
+	top: 3px;
+	left: 220px;
+}
+#lease-deal-accordion .accordion-heading a {	
+	font-size: 18px;
+	font-weight: 300;
+	color: #000000;
+	background: url(../../img/accordion-plusminus.png);	
+	background-position: right -19px;
+  	background-repeat: no-repeat;
+	margin-right: 15px;
+}
+#lease-deal-accordion .accordion-heading a:hover {
+	color: #0D638F;
+}
+#lease-deal-accordion .accordion-heading a.collapsed {	
+	background-position: right 12px;
+}
+#lease-deal-accordion .accordion-inner {
+	padding: 10px;
+}
+.print-buttons li a {	
+	cursor: pointer;
+}
+.help-input-green {
+	padding-left: 15px;
+	margin-bottom: 10px;
+	color: #6EB43F;
+	width: 279px;
+}
+.dial-worst, .dial-average, .dial-best, .dial-label-small {
+	position: absolute;
+	font-weight: bold;
+	font-size: 20px;
+}
+.dial-worst {
+    left: 30px;
+    bottom: 24px;
+	color: #E51937;
+}
+.dial-average {
+	top: -20px;
+	left: 150px;
+	color: #BBBBBB;
+}
+.dial-best {
+    right: 55px;
+    bottom: 24px;
+	color: #6EB43F;
+}
+.dial-label-small {
+    right: 109px;
+    bottom: 25px;
+    color: #0D72B5;
+    font-size: 22px;
+}
+#lease-deal-accordion .alert {	
+	margin-bottom: 2px;
+	margin-top: 20px;
+}
+#til-recommendations.table thead tr {	
+    color: #FFF !important;
+    background: #154B6C;
+}
+#til-recommendations td {	
+    border: 1px solid #CCC;
+}
+#til-recommendations tbody tr td:first-child {	
+    font-weight: bold;
+}
+.til-recommendations-title {	
+    font-size: 24px;
+    font-weight: bold;
+    color: #0d72b5;
+}
+.til-recommendations-title td {	
+    padding-top: 10px;
+}
+#scroll-dial-checkpoint {
+	margin-bottom: 5px;
+}
+.gauge-rating{
+	position: absolute; 
+	vertical-align: middle; 
+	height: 100px;
+	padding-top: 6px;
+	width: 121px;
+	text-align: left;
+}
+.text-red{
+	color: #E51937;
+}
+.text-yellow{
+	color: #F89829;
+}
+.text-orange{
+	color: #F1592A;
+}
+.text-green{
+	color: #8FBE35;
+}
+.text-green-dark{
+	color: #6EB43F;
+}
+.align-center{
+	text-align: center;
+}
+.padding-set{
+	padding-left: 17%;
+    padding-right: 10%;
+}
+.table th,
+.table td{
+	line-height:24px;
+}
+.table{
+	margin-bottom: 0px;
+}
+.margin-bottom{
+	margin-bottom: 10px;
+}
+.noUi-value-horizontal{
+	padding-top:20px !important;
+}
+#ThreeBarChart .chart-labels{
+	width:90%;
+}
+#ThreeBarChart .chart-label-wrapper {
+	width: 31.33333%;
+	text-align: center;
+	float: left;
+}
+#gaugeSummary th{
+	padding: 1px 5px;
+}
+#gaugeSummary td{
+	padding: 1px 5px;
+}
+#naics-desc{
+	float: none;
+    line-height: 20px;
+    margin-top: 0;
+    display: table;
+}
+.row-fluid .report-title{
+	margin: -5px 0 0 0;
+}
+iframe{
+	width: 100%;
+	height: -webkit-fill-available;
+}

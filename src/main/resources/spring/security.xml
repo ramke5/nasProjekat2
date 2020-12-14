@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:beans="http://www.springframework.org/schema/beans" 
+             xmlns:p="http://www.springframework.org/schema/p"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans 
+             http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+              http://www.springframework.org/schema/security 
+              http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+
+    <http pattern="/public-files/**" security="none"/>
+    <http pattern="/public-js/**" security="none"/>
+    <http pattern="/assets/**" security="none"/>
+    <http pattern="/assets-frontend/**" security="none"/>
+    <http pattern="/barcodes/**" security="none"/>
+    <http pattern="/favicon.ico" security="none"/>
+
+    <http>
+        <intercept-url pattern="/login*"  access="IS_AUTHENTICATED_ANONYMOUSLY" />
+        <intercept-url pattern="/forgotPassword*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <intercept-url pattern="/signUp/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <intercept-url pattern="/register/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+
+        <intercept-url pattern="/**" access="ROLE_SUPER_ADMIN,ROLE_ADMIN_KOMPANIJE,ROLE_KORISNIK_KOMPANIJE,ROLE_KORISNIK"/>
+        <form-login login-page="/login" authentication-failure-handler-ref="authenticationFailureHandler" authentication-success-handler-ref="authenticationSuccessHandler"/>
+        <remember-me user-service-ref="userManager" key="e37f4b31-0c45-11dd-bd0b-0800200c9a66"/>
+        <session-management session-authentication-strategy-ref="concurrentSessionControlStrategy"/>
+        <custom-filter position="CONCURRENT_SESSION_FILTER" ref="concurrencyFilter" />
+        <logout/>
+    </http>
+
+    <beans:bean id="authenticationSuccessHandler" class="ba.nalaz.web.helper.AuthenticationSuccessHandler">
+        <beans:property name="defaultTargetUrl" value="/welcome"/>
+    </beans:bean>
+    <beans:bean id="authenticationFailureHandler" class="org.springframework.security.web.authentication.ExceptionMappingAuthenticationFailureHandler">
+	    <beans:property name="exceptionMappings">
+	        <beans:props>
+	            <beans:prop key="org.springframework.security.authentication.DisabledException">/login?error=disabled</beans:prop>
+	        </beans:props>
+	    </beans:property>
+	    <beans:property name="defaultFailureUrl" value="/login?error=authFailure" />
+	</beans:bean>
+
+    <beans:bean id="sharedSessionRegistry"  class="org.springframework.security.core.session.SessionRegistryImpl" />
+
+    <beans:bean id="concurrentSessionControlStrategy" class="ba.nalaz.web.helper.ConcurrentSessionControlAuthenticationStrategy">
+        <beans:constructor-arg  ref="sharedSessionRegistry" />
+        <beans:property name="exceptionIfMaximumExceeded" value="true"/>
+    </beans:bean>
+
+    <beans:bean id="concurrencyFilter" class="org.springframework.security.web.session.ConcurrentSessionFilter">
+        <beans:property name="sessionRegistry" ref="sharedSessionRegistry" />
+        <beans:property name="expiredUrl" value="/login" />
+    </beans:bean>
+
+    <authentication-manager>
+        <authentication-provider user-service-ref="userManager">
+            <password-encoder ref="passwordEncoder">
+                <salt-source ref="saltSource"/>
+            </password-encoder>
+        </authentication-provider>
+    </authentication-manager>
+
+    <beans:bean id="saltSource" class="org.springframework.security.authentication.dao.ReflectionSaltSource" p:userPropertyToUse="username"/>
+    
+    <global-method-security pre-post-annotations="enabled"/>
+
+</beans:beans>

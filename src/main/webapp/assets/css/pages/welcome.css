@@ -1,0 +1,44 @@
+.accordion-heading {
+    background: transparent;
+}
+.select2-drop {
+    z-index: 50001;
+}
+.select2-drop-mask {
+    z-index: 50000;
+}
+.section-header-image.why {
+    background-image: url("/assets/img/login.jpg");
+}
+
+.jumbotron.jumbotron-lg h4 {
+    font-weight: 600;
+}
+
+.jumbotron-lg h2 {
+    text-transform: none;
+    color: #FD8F11;
+    font-size:21px;
+}
+.jumbotron-lg {
+    padding: 0 30px;
+}
+.jumbotron h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+.accordion h4, .accordion p {
+    font-size: 1.6em !important;
+}
+.jumbotron-lg .media .media-body ul li {
+    padding: 0;
+    color: #0BA3E2;
+    font-size: 14px;
+}
+.jumbotron-lg h2 span {
+    padding-bottom: 10px;
+}
+.jumbotron-lg {
+    padding: 30px;
+}

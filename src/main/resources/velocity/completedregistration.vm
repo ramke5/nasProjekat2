@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<center><img src=".png" alt="nalaz"></center><br>
+<style>
+a.link1 {
+    color: white;
+    font-size: 14pt;
+}
+
+a.link2 {
+    color: black;
+}
+
+a.link3 {
+    color: #0072BC;
+}
+.whiteText
+{
+	color:white;
+    font-style: italic;
+    font-size: 14pt;
+}
+</style
+</head>
+   <body>
+         <p>
+            ${first}:
+            <br><br>
+            Thank you for completing nalaz registration. Click on the link below to login.<br/>
+            <br>
+         <div align="center">
+			<a class="link3" href="http://${url}/login"><u>Login to nalaz</u></a></span>
+         </div>
+         <br><br>
+         Thank you!
+         <br><br>
+         <span>nalaz</span><br>
+         Neka adresa bb<br>
+         71000, Sarajevo, BiH<br>
+         P: 000.000.0000<br>
+         <a class="link3" href="mailto:mail@mail.com">mail@mail.com</font></a>
+         </p>
+      </div>
+   </body>
+</html>

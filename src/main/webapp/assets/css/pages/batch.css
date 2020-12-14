@@ -1,0 +1,54 @@
+.batchDataRecord {width: 85px;}
+.batchIndustryName {width: 250px;}
+.batchNAICSCode {width: 90px;}
+.batchGeoLevel {width: 150px;}
+.batchGeoAreaName {width: 130px;}
+.batchState {width: 50px;}
+.batchYear {width: 35px;}
+.batchLocalNoOfEstablishments, .batchUSNoOfEstablishments {width: 90px; padding-left: 25px !important;}
+.batchLocalNoOfEmployees, .batchUSNoOfEmployees {width: 70px; padding-left: 25px !important;}
+.batchLocalNetRevenues, .batchUSNetRevenues {width: 105px;}
+.batchLocalCombinedEbitda, .batchUSCombinedEbitda , .batchLocalNetIncome, .batchUSCombinedNetIncome{width: 95px;}
+.batchLocalCombinedRent, .batchUSCombinedRent {width: 75px;}
+.batchLocalSalesGrowth, .batchScoreSalesGrowth, .batchUSSalesGrowth {width: 45px; padding-left: 25px !important; padding-right: 0px !important;}
+.batchLocalGrossMargin, .batchScoreGrossMargin, .batchUSGrossMargin, .batchLocalNetIncomeMargin {width: 50px; padding-left: 25px !important; padding-right: 0px !important;}
+.batchLocalEbitdaMargin, .batchScoreEbitdaMargin, .batchUSEbitdaMargin, .batchUSNetIncomeMargin {width: 50px; padding-left: 25px !important; padding-right: 0px !important;}
+.batchLocalEbitdaGrowth, .batchScoreEBITDAGrowth, .batchUSEbitdaGrowth, .batchUSNetIncomeGrowth {width: 45px; padding-left: 25px !important; padding-right: 0px !important;}
+.batchLocalCurrentRatio, .batchScoreCurrentRatio, .batchUSCurrentRatio, .batchLocalNetIncomeGrowth, .batchScoreNetIncomeGrowth  {width: 45px; padding-left: 25px !important; padding-right: 0px !important;}
+.batchLocalAssetTurnover, .batchScoreAssetTurnover, .batchUSAssetTurnover, .batchScoreNetIncomeMargin {width: 50px; padding-left: 25px !important; padding-right: 0px !important;}
+.batchLocalDebtEquity, .batchScoreDebtEquity, .batchUSDebtEquity {width: 30px; padding-left: 25px !important;}
+.batchLocalROE, .batchScoreROE, .batchUSROE {width: 20px; padding-left: 25px !important;}
+.batchLocalROA, .batchScoreROA, .batchUSROA {width: 20px; padding-left: 25px !important;}
+.batchLocalRentCoverage, .batchScoreRentCoverage, .batchUSRentCoverage {width: 50px; padding-left: 25px !important; padding-right: 0px !important;}
+.batchLocalRentToSales, .batchScoreRentToSales, .batchUSRentToSales {width: 55px; padding-left: 25px !important;}
+.batchScores {width: 40px;}
+.batchScoreOverall {width: 55px;}
+.batchScoreBusinessPerformance {width: 70px; padding-left: 25px !important;}
+.batchScoreBusinessRisk {width: 45px; padding-left: 25px !important;}
+.batchScoreLeaseRisk {width: 25px; padding-left: 25px !important;}
+.batchScoreSalesSize {width: 35px; padding-left: 25px !important;}
+.batchUSLevel {width: 60px; padding-right: 0px !important;}
+.batchLinks {width: 40px;}
+.batchBenchmarkData {width: 90px;}
+.batchPDFReport {width: 130px;}
+.batchHighlightedColumn {color: red;}
+
+.batch-view-wrapper {
+	overflow: scroll;
+	position: relative;
+	margin-left: 0px !important;
+    max-height: 700px;
+}
+.batch-view-wrapper .exportlinks {
+	position: absolute;
+	top: 0px;
+}
+.batchTable {
+	table-layout: fixed;
+}
+.batchTable td {
+	padding-left: 26px;
+}
+.batchTable tbody td:first-child {
+	padding-left: 8px;
+}

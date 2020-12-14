@@ -1,0 +1,135 @@
+/***
+Error Pages
+***/
+
+/* 403 page option #1 */
+
+.page-403 {
+    text-align: center;
+}
+
+.page-403 .number {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 48px;
+    color: #7b40d6;
+    text-align: right;
+}
+
+.page-403 .details {
+    vertical-align: middle;
+    margin-left: 40px;
+    display: inline-block;
+    padding-top: 0px;
+    text-align: left;
+}
+
+
+/* 404 page option #1 */
+
+.page-404 {
+    text-align: center;
+}
+
+.page-404 .number {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 48px;
+    color: #7bbbd6;
+    text-align: right;
+}
+
+.page-404 .details {
+    vertical-align: middle;
+    margin-left: 40px;
+    display: inline-block;
+    padding-top: 0px;
+    text-align: left;
+}
+
+/* 500 page option #1 */
+.page-500 {
+    text-align: center;
+}
+
+.page-500 .number {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 48px;
+    color: #ec8c8c;
+    text-align: right;
+}
+
+.page-500 .details {
+    vertical-align: middle;
+    margin-left: 40px;
+    display: inline-block;
+    text-align: left;
+}
+
+/* 403 page option #2*/
+.page-403-full-page {
+    padding: 20px;
+    background-color: #fafafa !important;
+}
+
+.page-403-full-page .details input {
+    background-color: #ffffff;
+}
+
+.page-403-full-page .page-403 {
+    margin-top: 100px;
+}
+
+
+/* 404 page option #2*/
+.page-404-full-page {
+    padding: 20px;
+    background-color: #fafafa !important;
+}
+
+.page-404-full-page .details input {
+    background-color: #ffffff;
+}
+
+.page-404-full-page .page-404 {
+    margin-top: 100px;
+}
+
+/* 500 page option #2*/
+.page-500-full-page {
+    padding: 20px;
+    background-color: #fafafa !important;
+}
+
+.page-500-full-page .details input {
+    background-color: #ffffff;
+}
+
+.page-500-full-page .page-500 {
+    margin-top: 100px;
+}
+
+.page-500 code {
+    color: #fff;
+    white-space: normal;
+    border: none;
+}
+
+@media (max-width: 480px) {
+    .page-403 .number,
+    .page-404 .number,
+    .page-500 .number,
+    .page-403 .details,
+    .page-404 .details,
+    .page-500 .details {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .page-404-full-page .page-404 {
+        margin-top: 30px;
+    }
+
+
+}
